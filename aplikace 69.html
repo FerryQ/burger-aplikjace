@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Moje jídelna</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>Moje jídelna</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Domů</a></li>
+          <li><a href="#">O nás</a></li>
+          <li><a href="#">Kontakt</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h2>Vyberte si jídlo:</h2>
+      <form>
+        <label for="food-search">Co byste si dnes rádi dali?</label>
+        <input type="text" id="food-search" name="food-search">
+        <button type="submit">Hledat</button>
+      </form>
+      <section id="results">
+        <h3>Výsledky vyhledávání</h3>
+        <ul>
+          <li>
+            <h4>Restaurace A</h4>
+            <p>Jídlo 1 - 150 Kč</p>
+            <p>Jídlo 2 - 200 Kč</p>
+            <p>Jídlo 3 - 120 Kč</p>
+          </li>
+          <li>
+            <h4>Restaurace B</h4>
+            <p>Jídlo 1 - 180 Kč</p>
+            <p>Jídlo 2 - 150 Kč</p>
+          </li>
+          <li>
+            <h4>Restaurace C</h4>
+            <p>Jídlo 1 - 90 Kč</p>
+            <p>Jídlo 2 - 120 Kč</p>
+            <p>Jídlo 3 - 170 Kč</p>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
