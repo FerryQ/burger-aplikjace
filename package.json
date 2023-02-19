@@ -1,0 +1,13 @@
+{
+    "name": "my-node-app",
+    "version": "1.0.0",
+    "description": "My Node.js application",
+    "main": "app.js",
+    "engines": {
+      "node": "14.x"
+    },
+    "dependencies": {
+      "express": "^4.17.1"
+    }
+  }
+  
